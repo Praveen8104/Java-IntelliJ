@@ -10,7 +10,7 @@ public class LinkedList {
     public static void printLinkedList(ListNode head){
         ListNode current = head;
         while(current != null){
-            System.out.print(current.val + " ");
+            System.out.println(current.val);
             current = current.next;
         }
     }
